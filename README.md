@@ -1,32 +1,32 @@
-🚀 Email Spam Classifier | Machine Learning Project
+# 📧 Email Spam Classifier
 
-📧 Smart AI-Powered Spam Detection System
+A simple and efficient **Email Spam Detection Web App** built using  
+**Machine Learning (Multinomial Naive Bayes)** and **Streamlit**.
 
-This project is a Machine Learning based Email Spam Classifier that intelligently detects whether an email is Spam ❌ or Ham ✅ using NLP techniques and classification algorithms.
+This project classifies an email as **Spam** or **Not Spam** based on its content.
 
-✨ Key Highlights
+---
 
-🔍 Text preprocessing (Tokenization, Stopwords removal, TF-IDF)
+## 🧠 How It Works
 
-🤖 ML models for accurate spam detection
+1. User enters an email message
+2. Text is cleaned using basic preprocessing
+3. Text is converted into numerical features using **CountVectorizer**
+4. A trained **Multinomial Naive Bayes** model predicts:
+   - 🚨 Spam  
+   - ✅ Not Spam  
 
-📊 High accuracy & performance evaluation
+---
 
-⚡ Fast, lightweight & beginner-friendly code
+## 🛠️ Tech Stack
 
-🧠 Real-world use case (Email filtering systems)
+- **Python**
+- **Streamlit**
+- **Scikit-learn**
+- **Pandas**
+- **NumPy**
+- **Joblib**
 
-🛠 Tech Stack
+---
 
-Python
 
-NumPy, Pandas
-
-Scikit-learn
-
-NLP (TF-IDF / CountVectorizer)
-
-🎯 Use Case
-Helps in filtering unwanted spam emails and improves inbox security & productivity.
-
-📌 Perfect project for learning Machine Learning, NLP, and classification problems.

@@ -1,0 +1,5 @@
+streamlit
+joblib
+scikit-learn
+nltk==3.8.1
+spacy>=3.7.2
