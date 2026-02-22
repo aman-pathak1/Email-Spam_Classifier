@@ -21,8 +21,8 @@ nlp = load_spacy_model()
 # -------------------- Load ML model --------------------
 @st.cache_resource(ttl=3600)
 def load_model():
-    model = joblib.load('checkpoints/spam_detection_model.pkl')
-    vectorizer = joblib.load('checkpoints/count_vectorizer.pkl')
+    model = joblib.load("spam_detection_model.pkl")
+    vectorizer = joblib.load("count_vectorizer.pkl")
     return model, vectorizer
 
 # -------------------- Text preprocessing --------------------
